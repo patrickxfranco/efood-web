@@ -4,7 +4,7 @@ import { Button } from "../../components/Button";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   > main {
     max-width: 31.6rem;
