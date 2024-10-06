@@ -9,7 +9,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 2.4rem;
   display: flex;
-  width: 21rem;
+  min-width: 21rem;
   border: 1px solid ${({ theme }) => theme.COLORS.DARK_300};
   position: relative;
 
@@ -44,7 +44,6 @@ export const Container = styled.div`
     top: 0;
     right: 0;
     margin: 1.6rem;
-    color: ${({ theme }) => theme.COLORS.LIGHT_300};
   }
 `;
 

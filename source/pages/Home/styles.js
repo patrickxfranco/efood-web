@@ -13,7 +13,7 @@ export const Detach = styled.div`
   background: linear-gradient(180deg, rgba(9, 30, 38, 1) 0%, rgba(0, 19, 28, 1) 100%);
   width: 100%;
   height: 12rem;
-  margin: 4.4rem auto;
+  margin: 4.4rem auto 0;
   border-radius: 0.29rem;
   display: flex;
   flex-direction: row;
@@ -22,7 +22,8 @@ export const Detach = styled.div`
 
   img {
     margin-left: -2rem;
-    height: 15rem;
+    height: 15rem; 
+    width: 19.1rem;
     margin-bottom: 3rem;
     opacity: 80%;
   }

@@ -8,24 +8,24 @@ export function FoodCard({ foodPicture, foodName, foodPrice }) {
   return (
     <Container>
       <img src={foodPicture} alt={foodName} />
-      <ButtonIcon>
+      <ButtonIcon type="button">
         {foodName}
         <MdOutlineKeyboardArrowRight size={18} />
       </ButtonIcon>
       <span>R$ {foodPrice}</span>
       <div className="amount">
-        <ButtonIcon>
+        <ButtonIcon type="button" title="Diminuir quantidade">
           <FaMinus />
         </ButtonIcon>
         <strong>01</strong>
-        <ButtonIcon>
+        <ButtonIcon type="button" title="Aumentar quantidade">
           <FaPlus />
         </ButtonIcon>
       </div>
-      <ButtonAdd value="incluir" />
-      <div className="fav">
+      <ButtonAdd value="incluir" type="button" />
+      <ButtonIcon className="fav" type="button" title="Adicionar aos favoritos">
         <FaRegHeart size={24} />
-      </div>
+      </ButtonIcon>
     </Container>
   );
 }
