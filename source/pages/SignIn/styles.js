@@ -13,22 +13,20 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
-  display: flex;
+  justify-content: left;
+  margin: 16rem 0 7rem;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
+  display: flex;
   gap: 1.1rem;
-
-  margin: 16rem 0 7rem;
 `;
 
 export const Form = styled.form`
-  width: 100%;
-  height: 100%;
-
-  display: flex;
   flex-direction: column;
   align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
 
   label:nth-child(2) {
     margin-bottom: 3.2rem;
@@ -37,12 +35,12 @@ export const Form = styled.form`
   a {
     margin-top: 3.2rem;
     color: ${({ theme }) => theme.COLORS.LIGHT_100};
-    text-decoration: none;
     font-family: "Poppins";
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
+    text-decoration: none;
     transition: all 0.2s;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
 
     &:hover {
       filter: brightness(0.9);

@@ -1,5 +1,5 @@
-import { FiMenu } from "react-icons/fi";
 import { PiReceipt } from "react-icons/pi";
+import { FiMenu } from "react-icons/fi";
 
 import { Container } from "./styles";
 

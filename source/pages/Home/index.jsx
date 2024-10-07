@@ -5,8 +5,8 @@ import { FoodCard } from "../../components/FoodCard";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 
-import food1 from "../../assets/Mask group.png";
 import food2 from "../../assets/Mask group-2.png";
+import food1 from "../../assets/Mask group.png";
 
 import food from "../../assets/food.png";
 

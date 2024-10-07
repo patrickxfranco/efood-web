@@ -22,7 +22,7 @@ export function FoodCard({ foodPicture, foodName, foodPrice }) {
           <FaPlus />
         </ButtonIcon>
       </div>
-      <ButtonAdd value="incluir" type="button" />
+      <ButtonAdd value="incluir" type="button" title="Incluir item ao carrinho" />
       <ButtonIcon className="fav" type="button" title="Adicionar aos favoritos">
         <FaRegHeart size={24} />
       </ButtonIcon>

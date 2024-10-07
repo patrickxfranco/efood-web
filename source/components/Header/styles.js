@@ -1,30 +1,28 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  display: grid;
+  background-color: ${({ theme }) => theme.COLORS.DARK_700};
   grid-template-columns: auto 1fr auto;
+  padding: 5.6rem 2.8rem 2.4rem;
   justify-content: center;
   align-items: center;
-
-  background-color: ${({ theme }) => theme.COLORS.DARK_700};
-
-  padding: 5.6rem 2.8rem 2.4rem;
+  display: grid;
 
   > button {
-    background-color: transparent;
-    border: none;
     color: ${({ theme }) => theme.COLORS.LIGHT_100};
+    background-color: transparent;
     cursor: pointer;
+    border: none;
 
     &:hover {
       filter: brightness(0.9);
     }
   }
-  
+
   > div {
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     gap: 0.8rem;
 
     cursor: default;

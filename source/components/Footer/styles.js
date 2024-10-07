@@ -13,18 +13,18 @@ export const Container = styled.footer`
 
   > .mark {
     color: ${({ theme }) => theme.COLORS.LIGHT_700};
+    font-family: "Roboto", sans-serif;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     gap: 0.8rem;
   }
 
   strong {
     color: ${({ theme }) => theme.COLORS.LIGHT_200};
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 400;
   }
 `;

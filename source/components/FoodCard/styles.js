@@ -4,21 +4,22 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: ${({ theme }) => theme.COLORS.DARK_200};
+  border: 1px solid ${({ theme }) => theme.COLORS.DARK_300};
   flex-direction: column;
   border-radius: 0.8rem;
   align-items: center;
+  position: relative;
+  min-width: 21rem;
   padding: 2.4rem;
   display: flex;
-  min-width: 21rem;
-  border: 1px solid ${({ theme }) => theme.COLORS.DARK_300};
-  position: relative;
 
   img {
-    width: 8.8rem;
     height: 8.8rem;
+    width: 8.8rem;
   }
 
-  span, strong {
+  span,
+  strong {
     color: ${({ theme }) => theme.COLORS.CAKE_200};
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
@@ -31,39 +32,39 @@ export const Container = styled.div`
   }
 
   .amount {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.4rem;
-    margin-top: 1.2rem;
     margin-bottom: 1.6rem;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1.4rem;
   }
 
   .fav {
     position: absolute;
-    top: 0;
-    right: 0;
     margin: 1.6rem;
+    right: 0;
+    top: 0;
   }
 `;
 
 export const ButtonIcon = styled.button`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 1.2rem 0;
-    background-color: transparent;
-    border: none;
-    color: ${({ theme }) => theme.COLORS.LIGHT_300};
-    font-family: "Poppins", sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    font-weight: 500;
-    cursor: pointer;
+  color: ${({ theme }) => theme.COLORS.LIGHT_300};
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+  margin: 1.2rem 0;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  border: none;
 
-    &:hover {
-      text-decoration: underline;
-    }
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 export const ButtonAdd = styled(Button)`
