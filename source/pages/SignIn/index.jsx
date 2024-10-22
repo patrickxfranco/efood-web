@@ -1,6 +1,6 @@
 import { Container, Header, Form, ButtonSignIn } from "./styles";
 
-import { InputWrapper } from "../../components/InputWrapper/InputWrapper";
+import { InputWrapper } from "../../components/InputWrapper";
 import { Input } from "../../components/Input";
 
 import eFoodLogo from "../../assets/efood.svg";

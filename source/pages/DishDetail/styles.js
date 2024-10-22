@@ -5,13 +5,15 @@ import { Button } from "../../components/Button";
 export const Container = styled.div`
   height: 100vh;
   width: 100%;
+  position: relative;
 
   > main {
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     padding: 3.5rem 5.7rem;
     display: flex;
     width: 100%;
+    height: max-content;
   }
 
   .food {
